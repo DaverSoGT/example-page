@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 6.25%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/img/coffee-m.jpg");
+  color: white;
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header img {
+  font-size: 20rem;
+  font-weight: 700;
+}
